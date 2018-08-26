@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
   styleUrls: ['./listado-detail.component.css']
 })
 export class ListadoDetailComponent implements OnInit {
-  private product : Product;
+  public product : Product;
 
   constructor(
     public productService: ProductService,
