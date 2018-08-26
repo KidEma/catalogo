@@ -1,0 +1,44 @@
+<h1>{{product.title}}</h1>
+<div class="row">
+        <ngb-carousel *ngIf="product">
+            <ng-template ngbSlide>
+                <img [src]="product.imageUrls[0]" alt="Random first slide">
+                <div class="carousel-caption">
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </ng-template>            <ng-template ngbSlide>
+                  <img [src]="product.imageUrls[0]" alt="Random first slide">
+                  <div class="carousel-caption">
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </ng-template>            <ng-template ngbSlide>
+                    <img [src]="product.imageUrls[0]" alt="Random first slide">
+                    <div class="carousel-caption">
+                      <h3>First slide label</h3>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                  </ng-template>            <ng-template ngbSlide>
+                      <img [src]="product.imageUrls[0]" alt="Random first slide">
+                      <div class="carousel-caption">
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </ng-template>
+          </ngb-carousel>
+          <div class="col col-sm-6">
+          <div class="card text-center">
+              <div class="card-header">
+                Descripci&oacute;n
+              </div>
+              <div class="card-body">
+                <p class="card-text">{{product.description}}}</p>
+                <input type="button" (click)="back()" class="btn btn-primary" value="Atr&aacute;s" />
+              </div>
+              <div class="card-footer text-muted">
+                  <h1><span class="badge badge-danger">{{product.price | currency}}</span></h1>
+              </div>
+            </div>
+          </div>
+</div>
