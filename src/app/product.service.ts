@@ -64,8 +64,8 @@ export class ProductService {
       title: 'Teclado Razer DeathStalker Chroma + Mouse razer DeathAdder - como nuevo',
       price: 2500,        
       description: `
-      Originalmente me había comprado el Bundle  Razer Cynosa Pro + Mouse Deathadder, (que ahora está alrededor de 3K en ML).
-      El teclado sufrió un accidente así que lo reemplacé por el Deathstalker Chroma, que nuevo anda por los 4K. La diferencia con el 
+      Originalmente me había comprado el Bundle  Razer Cynosa Pro + Mouse Deathadder (que ahora está alrededor de 3K en ML).
+      El teclado sufrió un accidente así que lo reemplacé por el DeathStalker Chroma, que nuevo anda por los 4K. La diferencia con el 
       Deathstalker común es que podés elegir el color o tiene esos modos copados de color dinámico.
       El Deathstalker común es de un verde medio fiero que no combinaba con el mouse.
 
@@ -97,6 +97,7 @@ export class ProductService {
       
       <li>Gira 360°</li>
       <ul>
+      <br/>
      <p>Medidas:</p>
       Asiento: Ancho 48, Espesor 10, Prof. 49
       <br/>
@@ -111,9 +112,20 @@ export class ProductService {
 
 
     },      {
-      title: 'Parlantes Edifier e3100 ',
-      price: 2000,        
-      description: '2.1 - Excelente calidad de sonido.',
+      title: 'Parlantes Edifier e3100 - 2.1',
+      price: 1800,        
+      description: `
+      Tienen aproximadamente cuatro años, pero funcionan perfecto y no tienen ningún detalle.
+      <br/>
+      
+      Woofer y Satélites 100% fabricados en madera MDF.
+      <br/>
+
+      5' woofer (131mm) de alta performance, antimagnético.
+      <br/>
+
+     Satelites con parlantes de 2 vias, tweeter de PV.– Control de volumen, ajuste de graves y agudos. – 100 % antimagnético.– Panel frontal hecho en aluminio, estilo futurista. – Fuente hecho especialmente con 40W MAX de potencia. – Chipset de Hi-Fi, (pre-amp: NE5532) 
+      `,
       imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
 
 
@@ -125,6 +137,72 @@ export class ProductService {
       Tiene una parte rebatible, lo que lo hace ideal para lugares chicos o para uso temporal (yo lo tenía para 
       trabajo en home office).
       Lo dejo barato porque tiene detalles de quemadura en la superficie.
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Pava Eléctrica Peabody Gris Metálico',
+      price: 600,        
+      description: `
+      Impecable, poco uso. Funciona perfecto. Nueva ronda los 1300 pesos.
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Cajonera Melaminada Blanca Hecha a Medida',
+      price: 3800,        
+      description: `
+      Nueva, tiene menos de dos años. Está impecable, no tiene ni un detalle.
+      Super compacta, pero es donde guardo toda la ropa de temporada y los zapatos.
+      Tiene 6 cajones y un compartimiento con dos estantes para calzado.
+      Mide 142 largo x 110 alto x 42 profundidad.
+      <br/>
+      Mandar a hacer este mueble de nuevo no baja de los 8000 pesos.
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Mesita de Luz Melaminada Blanca',
+      price: 1300,        
+      description: `
+      Nueva, tiene menos de un año. Está impecable, no tiene ni un detalle.
+      <br/>
+      Tiene dos estantes, un cajón y un desayunador.
+      <br/>
+      Mide 73 alto x 48 ancho x 45.
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Nespresso Inissia Roja + Aeroccino 3 Negro',
+      price: 2300,        
+      description: `
+        La famosísima cafetera.
+        <br/> 
+        Tiene menos de un año. Es súper práctica y fácil de limpiar.
+        El kit nuevo anda por encima de los 4K. 
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Barra Blanca Pintada - Sirve como mostrador',
+      price: 1800,        
+      description: `
+      Necesita una mano de pintura en la parte superior. Por demás, está perfecta.
+      <br/>      
+      Tiene dos puertas corredizas y tres estantes adentro. Ideal para guardar vajilla, bebidas, utencillos de cocina.
+      Sirve también como mostrador (es lo que era originalmente cuando la compré) ya que es vistosa de ambos lados.
+      <br/>
+      Mide 152 alto x 97 ancho x 52.
+      `,
+      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+    },
+    {
+      title: 'Sillas Plásticas con patas de caño negras',
+      price: 400,        
+      description: `
+      Son apilables, y resistentes en exteriores. Ideal para sentarse a tomar unos mates en el balcón.
+      El precio es por las dos.
       `,
       imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
     }
