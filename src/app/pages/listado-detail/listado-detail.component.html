@@ -4,19 +4,9 @@
     <div class="col col-xl-6 col-12">
     <div>
         <ngb-carousel *ngIf="product">
-            <ng-template ngbSlide>
-                <img [src]="product.imageUrls[0]"  class="carousel-img" alt="Random first slide">
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </ng-template>            <ng-template ngbSlide>
-                  <img [src]="product.imageUrls[0]" class="carousel-img" alt="Random first slide">
-                  <div class="carousel-caption">
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </div>
-                </ng-template> 
+            <ng-template ngbSlide *ngFor="let img of product.imageUrls">
+                <img [src]="img"  class="carousel-img" alt="Random first slide">
+              </ng-template>
           </ngb-carousel>
     </div>
 </div>
@@ -26,7 +16,7 @@
                 Descripci&oacute;n
               </div>
               <div class="card-body">
-                <p class="card-text">{{product.description}}}</p>
+                <p class="card-text" [innerHTML]="product.description"></p>
                 <input type="button" (click)="back()" class="btn btn-primary" value="Atr&aacute;s" />
               </div>
               <div class="card-footer text-muted">

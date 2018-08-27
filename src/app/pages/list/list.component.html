@@ -5,8 +5,8 @@
       <div class="card-body">
         <h5 class="card-title">{{product.title}}</h5>
         <p class="card-text">
-            <span class="d-inline-block text-truncate" style="max-width: 100%;">
-          {{product.description}}
+            <span class="d-inline-block text-truncate" style="max-width: 100%;max-height:10vh" [innerHTML]="product.description">
+          
             </span>
         </p>
         <h1><span class="badge badge-primary">{{product.price | currency}}</span></h1>
