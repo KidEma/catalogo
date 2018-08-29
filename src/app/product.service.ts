@@ -176,6 +176,7 @@ export class ProductService {
     {
       title: 'Nespresso Inissia Roja + Aeroccino 3 Negro',
       price: 2300,        
+      sold: true,
       description: `
         La famosísima cafetera.
         <br/> 

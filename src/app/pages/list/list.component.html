@@ -3,7 +3,7 @@
     <div class="card">
         <img class="card-img-top" [src]="product.imageUrls[0]" alt="Card image cap" width="25">
       <div class="card-body">
-        <h5 class="card-title">{{product.title}}</h5>
+        <h5 class="card-title"><span *ngIf="product.sold" style="color: red; font-weight: bold;">[VENDIDO] </span>{{product.title}}</h5>
         <p class="card-text">
             <span class="d-inline-block text-truncate" style="max-width: 100%;max-height:10vh" [innerHTML]="product.description">
           
