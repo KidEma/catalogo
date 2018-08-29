@@ -108,7 +108,10 @@ export class ProductService {
       Apoyabrazos: 40
       <br/>
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://i.imgur.com/VnYBe3m.jpg', 
+        
+       ]
 
 
     },      {
@@ -159,7 +162,15 @@ export class ProductService {
       <br/>
       Mandar a hacer este mueble de nuevo no baja de los 8000 pesos.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://i.imgur.com/tYIRzVn.jpg',
+        'https://i.imgur.com/W7YVx8f.jpg',
+        'https://i.imgur.com/qWlP8Ov.jpg',
+        'https://i.imgur.com/tYIRzVn.jpg',
+        'https://i.imgur.com/k1q5DkS.jpg'
+        
+        
+    ]
     },
     {
       title: 'Mesita de Luz Melaminada Blanca',
@@ -196,7 +207,11 @@ export class ProductService {
       <br/>
       Mide 152 alto x 97 ancho x 52.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://i.imgur.com/skkDm1m.jpg',
+        'https://i.imgur.com/kAfrLLu.jpg',
+        'https://i.imgur.com/7DDeCbF.jpg'
+      ]
     },
     {
       title: 'Sillas Plásticas con patas de caño negras',
@@ -205,7 +220,10 @@ export class ProductService {
       Son apilables, y resistentes en exteriores. Ideal para sentarse a tomar unos mates en el balcón.
       El precio es por las dos.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://i.imgur.com/vD2EQHK.jpg',
+        'https://i.imgur.com/MsJoQti.jpg',
+    ]
     }
   ];
 
