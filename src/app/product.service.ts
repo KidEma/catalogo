@@ -15,7 +15,16 @@ export class ProductService {
       <p>RAM: CORSAIR — 16GB Dual Channel DDR3 Memory Kit</p>
       <p>Fuente: 800w</p>
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/ZJ8mZIt.jpg',
+        'https://imgur.com/sV4nKd4.jpg',
+        'https://imgur.com/mGeHQXj.jpg',
+        'https://imgur.com/kMwUYP2.jpg',
+        'https://imgur.com/Ai5xb9s.jpg',
+        'https://imgur.com/EICgryI.jpg',
+        'https://imgur.com/sKuoyNt.jpg'
+
+      ]
     },
     {
       title: 'Monitor 24” Samsung SyncMaster 2343nwx ',
@@ -149,7 +158,11 @@ export class ProductService {
       description: `
       Impecable, poco uso. Funciona perfecto. Nueva ronda los 1300 pesos.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/00UTHai.png',
+        'https://imgur.com/ahRow7N.png',
+        'https://imgur.com/JlB4URG.png'
+      ]
     },
     {
       title: 'Cajonera Melaminada Blanca Hecha a Medida',
