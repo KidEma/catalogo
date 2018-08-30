@@ -67,7 +67,12 @@ export class ProductService {
       <br/>    
       Compatibilidad: PC y Mac
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/1CLVObD.jpg',
+        'https://imgur.com/KUrBHqm.jpg',
+        'https://imgur.com/tAPaKDD.jpg',
+        'https://imgur.com/RpXwnWI.jpg',
+      ]
     },
     {
       title: 'Teclado Razer DeathStalker Chroma + Mouse razer DeathAdder - como nuevo',
@@ -79,7 +84,12 @@ export class ProductService {
       El Deathstalker común es de un verde medio fiero que no combinaba con el mouse.
 
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/jlpP6vZ.jpg',
+        'https://imgur.com/5aqBct0.jpg',
+        'https://imgur.com/Qz6X24q.jpg',
+        'https://imgur.com/Ojh2cjr.jpg',
+      ]
 
 
     },      {
@@ -118,7 +128,7 @@ export class ProductService {
       <br/>
       `,
       imageUrls: [
-        'https://i.imgur.com/VnYBe3m.jpg', 
+        'https://imgur.com/qX9h4Nx.jpg', 
         
        ]
 
@@ -138,7 +148,10 @@ export class ProductService {
 
      Satelites con parlantes de 2 vias, tweeter de PV.– Control de volumen, ajuste de graves y agudos. – 100 % antimagnético.– Panel frontal hecho en aluminio, estilo futurista. – Fuente hecho especialmente con 40W MAX de potencia. – Chipset de Hi-Fi, (pre-amp: NE5532) 
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/RWksjkW.jpg',
+        'https://imgur.com/2bJ5t42.jpg'
+      ]
 
 
     },
@@ -150,7 +163,11 @@ export class ProductService {
       trabajo en home office).
       Lo dejo barato porque tiene detalles de quemadura en la superficie.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: [
+        'https://imgur.com/7BaGMTq.jpg',
+        'https://imgur.com/pfd7XMT.jpg',
+        'https://imgur.com/ESq2tyH.jpg',
+      ]
     },
     {
       title: 'Pava Eléctrica Peabody Gris Metálico',
@@ -195,7 +212,7 @@ export class ProductService {
       <br/>
       Mide 73 alto x 48 ancho x 45.
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: ['https://imgur.com/qX9h4Nx.jpg']
     },
     {
       title: 'Nespresso Inissia Roja + Aeroccino 3 Negro',
@@ -207,7 +224,7 @@ export class ProductService {
         Tiene menos de un año. Es súper práctica y fácil de limpiar.
         El kit nuevo anda por encima de los 4K. 
       `,
-      imageUrls: ['https://i.imgur.com/VnYBe3m.jpg']
+      imageUrls: ['https://imgur.com/qX9h4Nx.jpg']
     },
     {
       title: 'Barra Blanca Pintada - Sirve como mostrador',
