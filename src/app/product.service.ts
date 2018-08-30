@@ -128,8 +128,9 @@ export class ProductService {
       <br/>
       `,
       imageUrls: [
-        'https://imgur.com/qX9h4Nx.jpg', 
-        
+        'https://imgur.com/hXTBD3t.jpg', 
+        'https://imgur.com/voLhYrK.jpg', 
+        'https://imgur.com/QoIc912.jpg',         
        ]
 
 
