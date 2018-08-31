@@ -172,7 +172,8 @@ export class ProductService {
     },
     {
       title: 'Pava Eléctrica Peabody Gris Metálico',
-      price: 600,        
+      price: 600, 
+      sold: true,
       description: `
       Impecable, poco uso. Funciona perfecto. Nueva ronda los 1300 pesos.
       `,
@@ -184,7 +185,8 @@ export class ProductService {
     },
     {
       title: 'Cajonera Melaminada Blanca Hecha a Medida',
-      price: 3800,        
+      price: 3800,
+      sold: true,
       description: `
       Nueva, tiene menos de dos años. Está impecable, no tiene ni un detalle.
       Super compacta, pero es donde guardo toda la ropa de temporada y los zapatos.
