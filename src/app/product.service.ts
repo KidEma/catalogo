@@ -9,6 +9,7 @@ export class ProductService {
     {
       title: 'PC Gamer i7 4770 GTX760 16GB - Sin disco',
       price: 15000,
+      sold: true,
       description: `
       <p>Micro: Processor Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, 3601 Mhz, 4 Core(s), 8 Logical Processor(s)</p>
       <p>Placa de video: GeForce Gtx 760 2gb Gddr5</p>
@@ -29,6 +30,7 @@ export class ProductService {
     {
       title: 'Monitor 24” Samsung SyncMaster 2343nwx ',
       price: 2000,
+      sold: true,
       description: `
       Marca: Samsung
       <br/>
