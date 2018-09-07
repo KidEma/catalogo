@@ -10,13 +10,15 @@ import {Location} from '@angular/common';
 })
 export class ListComponent implements OnInit {
   public listOfProducts: Product[];
+  public listOfSoldProducts: Product[];
   
   constructor(public productService: ProductService, private location: Location) { 
   }
 
   ngOnInit() {
         // Get future, public events
-        this.listOfProducts = this.productService.getProducts();
+        this.listOfProducts = this.productService.getNotSoldProducts();
+        this.listOfSoldProducts = this.productService.getSoldProducts();
     
   }
 

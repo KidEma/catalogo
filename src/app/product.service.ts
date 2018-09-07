@@ -5,7 +5,7 @@ import {Product} from './classes/product'
   providedIn: 'root'
 })
 export class ProductService {
-  private products = [
+  private products : Product[] = [
     {
       title: 'PC Gamer i7 4770 GTX760 16GB - Sin disco',
       price: 15000,
@@ -78,7 +78,8 @@ export class ProductService {
     },
     {
       title: 'Teclado Razer DeathStalker Chroma + Mouse razer DeathAdder - como nuevo',
-      price: 2500,        
+      price: 2500,
+      sold: true,    
       description: `
       Originalmente me había comprado el Bundle  Razer Cynosa Pro + Mouse Deathadder (que ahora está alrededor de 3K en ML).
       El teclado sufrió un accidente así que lo reemplacé por el DeathStalker Chroma, que nuevo anda por los 4K. La diferencia con el 
@@ -96,7 +97,8 @@ export class ProductService {
 
     },      {
       title: 'Silla para PC - Sillón Ejecutivo',
-      price: 2500,        
+      price: 2500,   
+      sold: true,    
       description: `
       Está como nueva, la compré hace menos de un año. Nueva anda por los 4K.
       Es súper acolchada, el respaldo es alto, se reclina y es ajustable.
@@ -138,7 +140,7 @@ export class ProductService {
 
     },      {
       title: 'Parlantes Edifier e3100 - 2.1',
-      price: 1800,        
+      price: 1800,
       description: `
       Tienen aproximadamente cuatro años, pero funcionan perfecto y no tienen ningún detalle.
       <br/>
@@ -268,6 +270,14 @@ export class ProductService {
 
    getProduct(title : string) : Product{
     return this.products.filter(p => p.title === title)[0];
+  }
+
+  getSoldProducts() : Product[]{
+    return this.products.filter(p => p.sold);
+  }
+
+  getNotSoldProducts() : Product[]{
+    return this.products.filter(p => !p.sold);
   }
 
   constructor() { 
