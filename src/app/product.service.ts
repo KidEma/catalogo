@@ -205,8 +205,6 @@ export class ProductService {
         'https://i.imgur.com/qWlP8Ov.jpg',
         'https://i.imgur.com/tYIRzVn.jpg',
         'https://i.imgur.com/k1q5DkS.jpg'
-        
-        
     ]
     },
     {
@@ -219,7 +217,12 @@ export class ProductService {
       <br/>
       Mide 73 alto x 48 ancho x 45.
       `,
-      imageUrls: ['https://imgur.com/qX9h4Nx.jpg']
+      imageUrls: [
+        'https://imgur.com/OgzshvH.jpg',
+        'https://imgur.com/MRBunEb.jpg',
+        'https://imgur.com/vIKPz5S.jpg',
+        'https://imgur.com/SnHayd5.jpg',
+      ]
     },
     {
       title: 'Nespresso Inissia Roja + Aeroccino 3 Negro',
@@ -242,6 +245,8 @@ export class ProductService {
       Tiene dos puertas corredizas y tres estantes adentro. Ideal para guardar vajilla, bebidas, utencillos de cocina.
       Sirve también como mostrador (es lo que era originalmente cuando la compré) ya que es vistosa de ambos lados.
       <br/>
+      La clave de sol está pegada con cinta doble faz y se puede sacar.
+      <br/>
       Mide 152 alto x 97 ancho x 52.
       `,
       imageUrls: [
@@ -260,6 +265,47 @@ export class ProductService {
       imageUrls: [
         'https://i.imgur.com/vD2EQHK.jpg',
         'https://i.imgur.com/MsJoQti.jpg',
+    ]
+    },
+    {
+      title: 'PC intel Core 2 Quad Q6600 - 4 GB RAM - HD 500GB',
+      price: 2300,        
+      description: `
+      Primera generación de Quads de intel. Funciona, la usaba de server para experimentos.
+      <br/>
+      El gabinete tiene un detalle de pintura en la parte superior.
+      `,
+      imageUrls: [
+        'https://imgur.com/XrfB1Cv.jpg',
+        'https://imgur.com/RiZC2th.jpg',
+        'https://imgur.com/A5Z3bDz.jpg',
+    ]
+    },
+    {
+      title: 'Mueble Alacena Dos Puertas Blanco',
+      price: 700,        
+      description: `
+      Mueble desarmable con dos puertas y dos estantes.
+      Mide 100 x 60 x 30 cm.
+      Los gatitos están pegados con cita doble faz y se pueden sacar.
+      `,
+      imageUrls: [
+        'https://imgur.com/nLPW6Jo.jpg',
+        'https://imgur.com/pDphcaM.jpg',
+        'https://imgur.com/eizyZwP.jpg',
+        'https://imgur.com/iGt6YKd.jpg',
+        'https://imgur.com/KyYkJ7a.jpg',
+    ]
+    },
+    {
+      title: 'Mesita auxiliar con ruedas',
+      price: 1300,        
+      description: `
+    De madera maciza, pintado de blanco. Mide 70 x 50 x 60 (70 con rueditas).
+    Las rueditas se pueden sacar.
+      `,
+      imageUrls: [
+        'https://i.imgur.com/yF6ImaT.jpg'
     ]
     }
   ];
