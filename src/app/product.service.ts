@@ -209,7 +209,8 @@ export class ProductService {
     },
     {
       title: 'Mesita de Luz Melaminada Blanca',
-      price: 1300,        
+      price: 1300,
+      sold: true,   
       description: `
       Nueva, tiene menos de un año. Está impecable, no tiene ni un detalle.
       <br/>
